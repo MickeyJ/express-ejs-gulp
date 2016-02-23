@@ -1,11 +1,19 @@
-#Simple Node.js with Gulp Sass
+#Simple Node/Express with EJS and Gulp
 
+
+install node dependencies
 ```
 $ npm install
 ```
+install gulp globally 
+```
+$ npm install -g gulp
+```
+start default
 ```
 $ gulp
 ```
+run the server
 ```
-$ node server.js  (live on localhost:9000)
+$ node server.js 
 ```
