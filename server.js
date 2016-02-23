@@ -1,9 +1,9 @@
-/* dependencies */
+/* Dependencies */
 var express = require('express');
 var ejs = require('ejs');
 
 
-/* Creat App */
+/* Create App */
 var app = express();
 
 
