@@ -1,0 +1,42 @@
+:root{
+  font-family: Open, sans-serif;
+  font-size: 19px;
+}
+
+body, html, h1{
+  margin: 0;
+  padding: 0;
+}
+
+
+%flexin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.big-box{
+  background: coral;
+  border: 2px solid red;
+  width: 99%;
+  height: 50vw;
+  margin: 0 auto;
+  @extend %flexin;
+
+  .med-box{
+    background: white;
+    border: 2px dashed green;
+    width: 60%;
+    height: 80%;
+    @extend %flexin;
+
+    .lil-box{
+      background: DeepSkyBlue;
+      border: 2px solid blue;
+      width: 60%;
+      height: 80%;
+    }
+  }
+}
